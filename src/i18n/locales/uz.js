@@ -48,6 +48,9 @@ export default {
     copyright: '© {year} IGN Health Group. Barcha huquqlar himoyalangan.',
     privacyPolicy: 'Maxfiylik siyosati',
     termsOfUse: 'Foydalanish shartlari',
+    americanTech: 'Amerika texnologiyasi',
+    halalCertified: 'Sertifikatlangan',
+    americanTechDesc: 'IGN Health Group Amerika ilmiy texnologiyalari asosida mahsulotlar ishlab chiqaradi va AQSh kompaniyalari bilan hamkorlikda faoliyat yuritadi.',
     regulatory: 'Hujjatlar',
     whereToBy: 'Qayerdan sotib olish',
     therapeuticList: {
@@ -61,13 +64,25 @@ export default {
     uzumMarket: 'Uzum Market',
     yandexMarket: 'Yandex Market',
   },
+  trust: {
+    gmpDesc: 'Ishlab chiqarishning barcha bosqichlari GMP standartlariga muvofiq nazorat qilinadi',
+    halalDesc: "Barcha mahsulotlar Halal talablariga to\u2019liq javob beradi",
+    isoDesc: "Xalqaro sifat menejmenti tizimi bo\u2019yicha sertifikatlangan",
+    clinicalDesc: 'Har bir preparat klinik tadqiqotlar asosida ishlab chiqilgan',
+    americanTech: 'Amerika Texnologiyasi',
+    americanTechDesc: 'AQSh ilmiy texnologiyalari asosida ishlab chiqilgan',
+    halal: 'Halal',
+    iso: 'ISO 9001:2015',
+  },
   home: {
     hero: {
       badge: "O'zbekistonda ishlab chiqariladi",
       title1: "Sog'liq va",
       title2: "Go'zallik",
       title3: 'Uchun',
-      subtitle: "IGN Health Group O'zbekistonda ishlab chiqarilgan tabiiy va klinik sinovdan o'tgan farmatsevtika mahsulotlarini taqdim etadi. Sifat, xavfsizlik va samaradorlik — bizning asosiy tamoyillarimiz.",
+      usTechLabel: 'Xalqaro texnologiyalar',
+      usTechSub: 'Global ilmiy hamkorlik',
+            subtitle: "IGN Health Group O'zbekistonda ishlab chiqarilgan tabiiy va klinik sinovdan o'tgan farmatsevtika mahsulotlarini taqdim etadi. Sifat, xavfsizlik va samaradorlik — bizning asosiy tamoyillarimiz.",
     },
     stats: {
       productsCount: 'Mahsulot',

@@ -1,11 +1,11 @@
 <template>
   <article class="group flex flex-col bg-white rounded-2xl border border-slate-100 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 hover:border-primary-200">
-    <div class="relative overflow-hidden h-52 bg-gradient-to-br from-primary-50 to-teal-50">
+    <div class="relative overflow-hidden h-52 bg-gradient-to-br from-slate-50 to-primary-50 flex items-center justify-center">
       <img
         :src="product.image"
         :alt="product.name"
         loading="lazy"
-        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        class="h-44 w-full object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-lg"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-primary-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       <span class="absolute top-3 left-3 text-xs font-mono font-semibold tracking-wide bg-white/95 backdrop-blur-sm text-primary-700 px-3 py-1 rounded-full shadow-sm">

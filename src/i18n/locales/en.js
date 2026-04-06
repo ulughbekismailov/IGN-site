@@ -48,6 +48,9 @@ export default {
     copyright: '© {year} IGN Health Group. All rights reserved.',
     privacyPolicy: 'Privacy Policy',
     termsOfUse: 'Terms of Use',
+    americanTech: 'American Technology',
+    halalCertified: 'Certified',
+    americanTechDesc: 'IGN Health Group develops products based on American scientific technologies and operates in partnership with US companies.',
     regulatory: 'Documents',
     whereToBy: 'Where to Buy',
     therapeuticList: {
@@ -61,13 +64,25 @@ export default {
     uzumMarket: 'Uzum Market',
     yandexMarket: 'Yandex Market',
   },
+  trust: {
+    gmpDesc: 'All production stages are controlled in accordance with GMP standards',
+    halalDesc: 'All products fully comply with Halal requirements',
+    isoDesc: 'Certified under the international quality management system',
+    clinicalDesc: 'Each preparation is developed based on clinical research',
+    americanTech: 'International Technology',
+    americanTechDesc: 'Developed using advanced international scientific technologies',
+    halal: 'Halal',
+    iso: 'ISO 9001:2015',
+  },
   home: {
     hero: {
       badge: 'Made in Uzbekistan',
       title1: 'Health &',
       title2: 'Beauty',
       title3: 'For You',
-      subtitle: 'IGN Health Group presents natural and clinically tested pharmaceutical products made in Uzbekistan. Quality, safety, and efficacy — our core principles.',
+      usTechLabel: 'International Technologies',
+      usTechSub: 'Global scientific partnership',
+            subtitle: 'IGN Health Group presents natural and clinically tested pharmaceutical products made in Uzbekistan. Quality, safety, and efficacy — our core principles.',
     },
     stats: {
       productsCount: 'Products',

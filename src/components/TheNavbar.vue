@@ -9,11 +9,12 @@
       <nav class="flex items-center justify-between h-16 md:h-20">
 
         <!-- Logo -->
-        <router-link to="/" class="flex items-center gap-3 group" :aria-label="t('common.companyName')">
-          <div class="w-[120px] h-[60px] p-4 rounded-xl flex items-center justify-center transition-transform group-hover:scale-105">
-            <img v-if="!scrolled" src="@/assets/IGN-logo-white.png" alt="IGN Logo" class="object-contain">
-            <img v-if="scrolled" src="@/assets/IGN-logo-black.png" alt="IGN Logo" class="object-contain">
-          </div>
+        <router-link to="/" class="flex items-center gap-3 group">
+          <img
+            :src="scrolled ? '/logo-black.png' : '/logo-white.png'"
+            alt="IGN Health Group"
+            class="h-10 md:h-12 w-auto object-contain transition-all duration-300"
+          />
         </router-link>
 
         <!-- Desktop Nav -->
@@ -69,7 +70,7 @@
           <router-link
             v-for="link in navLinks" :key="link.to" :to="link.to"
             @click="mobileOpen = false"
-            class="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200"
+            class="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all"
             :class="isActive(link.to)
               ? 'text-primary-700 bg-primary-50 font-semibold'
               : 'text-slate-600 hover:text-primary-700 hover:bg-primary-50'"
@@ -92,10 +93,7 @@
           </div>
 
           <div class="pt-2">
-            <router-link
-              to="/contact" @click="mobileOpen = false"
-              class="btn-primary w-full justify-center text-sm py-3"
-            >
+            <router-link to="/contact" @click="mobileOpen = false" class="btn-primary w-full justify-center text-sm py-3">
               {{ t('common.getInTouch') }}
             </router-link>
           </div>

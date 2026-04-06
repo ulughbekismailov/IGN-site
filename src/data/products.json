@@ -3,7 +3,7 @@
     "id": 1,
     "name": "LINARBIN",
     "category": "Metabolik",
-    "image": "/images/Linarbin.png",
+    "image": "/linarbin.png",
     "badge": "Bestseller",
     "tagline_uz": "Metabolik jarayonlarni qo'llab-quvvatlovchi, energiya va chidamlilikni oshiruvchi vosita.",
     "tagline_ru": "Средство для поддержки метаболических процессов, повышения энергии и выносливости.",
@@ -28,7 +28,10 @@
     "dosage_ru": "Взрослые: 1 капсула или 10 мл 2–3 раза в день. 13–18 лет: 1 капсула или 10 мл 1–2 раза в день. 3–12 лет: 1/2 капсулы или 2–5 мл 1 раз в день. До 3 лет: дозу назначает врач. Принимать через 30 минут после еды, запивая водой.",
     "dosage_en": "Adults: 1 capsule or 10 ml, 2–3 times daily. Ages 13–18: 1 capsule or 10 ml, 1–2 times daily. Ages 3–12: 1/2 capsule or 2–5 ml, once daily. Under 3: dosage determined by physician. Take 30 minutes after meals with water.",
     "ingredients": [
-      { "name": "Levokarnitin (L-Carnitine)", "amount": "500 mg" }
+      {
+        "name": "Levokarnitin (L-Carnitine)",
+        "amount": "500 mg"
+      }
     ],
     "benefits_uz": [
       "Yog' va oqsil almashinuvini yaxshilaydi",
@@ -60,7 +63,10 @@
     "storage_uz": "Quruq, salqin joyda, 25°C dan past haroratda saqlang. Bolalar qo'li yetmaydigan joyda.",
     "storage_ru": "Хранить в сухом, прохладном месте при температуре ниже 25°C. Хранить в недоступном для детей месте.",
     "storage_en": "Store in a dry, cool place below 25°C. Keep out of reach of children.",
-    "certifications": ["GMP Sertifikatlangan", "O'zbekiston Sog'liqni Saqlash Vazirligi ruxsati"],
+    "certifications": [
+      "GMP Sertifikatlangan",
+      "O'zbekiston Sog'liqni Saqlash Vazirligi ruxsati"
+    ],
     "clinicalEvidence_uz": "Levokarnitin metabolik kasalliklarda va jismoniy yuklamaga chidamlilikni oshirishda klinik jihatdan tasdiqlangan. Davolash kursi 1–2 oy.",
     "clinicalEvidence_ru": "Левокарнитин клинически подтверждён при метаболических заболеваниях и для повышения физической выносливости. Курс лечения 1–2 месяца.",
     "clinicalEvidence_en": "Levocarnitine is clinically validated for metabolic disorders and improving physical endurance. Treatment course: 1–2 months.",
@@ -73,7 +79,7 @@
     "id": 2,
     "name": "INNOBET",
     "category": "Diabet",
-    "image": "/images/innobet.png",
+    "image": "/innobet.png",
     "badge": "New",
     "tagline_uz": "Qondagi shakar va xolesterin darajasini kamaytirishga yordam beradi.",
     "tagline_ru": "Помогает снизить уровень сахара и холестерина в крови.",
@@ -98,10 +104,22 @@
     "dosage_ru": "Взрослые: 1 таблетка 2–3 раза в день. Дети старше 5 лет: 1 таблетка 1 раз в день. Держать под языком до полного растворения перед едой (не глотать и не жевать).",
     "dosage_en": "Adults: 1 tablet 2–3 times daily. Children over 5 years: 1 tablet once daily. Hold under the tongue until completely dissolved before meals (do not swallow or chew).",
     "ingredients": [
-      { "name": "Trehalose (Tregaloza)", "amount": "—" },
-      { "name": "Inositol (Inozitol)", "amount": "—" },
-      { "name": "Leucine (Leytsin)", "amount": "—" },
-      { "name": "Tissue hydrolysate (To'qima gidrolizati)", "amount": "—" }
+      {
+        "name": "Trehalose (Tregaloza)",
+        "amount": "—"
+      },
+      {
+        "name": "Inositol (Inozitol)",
+        "amount": "—"
+      },
+      {
+        "name": "Leucine (Leytsin)",
+        "amount": "—"
+      },
+      {
+        "name": "Tissue hydrolysate (To'qima gidrolizati)",
+        "amount": "—"
+      }
     ],
     "benefits_uz": [
       "Qondagi qand darajasini kamaytiradi",
@@ -133,7 +151,10 @@
     "storage_uz": "Quruq, salqin joyda saqlang. Bolalar qo'li yetmaydigan joyda.",
     "storage_ru": "Хранить в сухом, прохладном месте. Хранить в недоступном для детей месте.",
     "storage_en": "Store in a dry, cool place. Keep out of reach of children.",
-    "certifications": ["GMP Sertifikatlangan", "O'zbekiston SSV ruxsati"],
+    "certifications": [
+      "GMP Sertifikatlangan",
+      "O'zbekiston SSV ruxsati"
+    ],
     "clinicalEvidence_uz": "INNOBET qandli diabet va metabolik sindromda klinik jihatdan sinovdan o'tgan. Davolash kursi kamida 1 oy.",
     "clinicalEvidence_ru": "INNOBET клинически испытан при сахарном диабете и метаболическом синдроме. Курс лечения не менее 1 месяца.",
     "clinicalEvidence_en": "INNOBET has been clinically tested in diabetes mellitus and metabolic syndrome. Treatment course: at least 1 month.",
@@ -146,7 +167,7 @@
     "id": 3,
     "name": "KLIMAK",
     "category": "Ginekologiya",
-    "image": "/images/KLIMAK.png",
+    "image": "/klimak.png",
     "badge": "Clinical Grade",
     "tagline_uz": "Menopauza alomatlarini yengillashtiradi, xavotirni kamaytiradi va umumiy farovonlikni yaxshilaydi.",
     "tagline_ru": "Облегчает симптомы менопаузы, снижает тревогу и улучшает общее самочувствие.",
@@ -171,10 +192,22 @@
     "dosage_ru": "Взрослые: по 1 капсуле 1–2 раза в день (максимальная доза 3 капсулы в день). Запивать водой. Курс лечения: 5–15 дней до исчезновения симптомов приливов. При повторении симптомов курс можно повторить.",
     "dosage_en": "Adults: 1 capsule 1–2 times daily (maximum dose 3 capsules per day). Take with water. Treatment course: 5–15 days until hot flash symptoms disappear. If symptoms recur, the course can be repeated.",
     "ingredients": [
-      { "name": "Beta-alanin", "amount": "400 mg" },
-      { "name": "To'qima gidrolizati", "amount": "200 mkg" },
-      { "name": "Prolin", "amount": "50 mg" },
-      { "name": "Glitsirrizin kislotasi (Radices glycyrrhizae)", "amount": "30 mg" }
+      {
+        "name": "Beta-alanin",
+        "amount": "400 mg"
+      },
+      {
+        "name": "To'qima gidrolizati",
+        "amount": "200 mkg"
+      },
+      {
+        "name": "Prolin",
+        "amount": "50 mg"
+      },
+      {
+        "name": "Glitsirrizin kislotasi (Radices glycyrrhizae)",
+        "amount": "30 mg"
+      }
     ],
     "benefits_uz": [
       "Issiq chaqnashlarini kamaytiradi",
@@ -206,7 +239,11 @@
     "storage_uz": "Quruq, salqin joyda, 25°C dan past haroratda saqlang. Bolalar qo'li yetmaydigan joyda.",
     "storage_ru": "Хранить в сухом, прохладном месте при температуре ниже 25°C. Хранить в недоступном для детей месте.",
     "storage_en": "Store in a dry, cool place below 25°C. Keep out of reach of children.",
-    "certifications": ["GMP Sertifikatlangan", "Tabiiy tarkib", "Gormonsiz"],
+    "certifications": [
+      "GMP Sertifikatlangan",
+      "Tabiiy tarkib",
+      "Gormonsiz"
+    ],
     "clinicalEvidence_uz": "Beta-alanin va to'qima gidrolizati kombinatsiyasi menopauza alomatlarini yengillashtirish bo'yicha klinik sinovlardan o'tgan. O'rganib qolish kuzatilmaydi.",
     "clinicalEvidence_ru": "Комбинация бета-аланина и тканевого гидролизата прошла клинические испытания по облегчению симптомов менопаузы. Привыкание не наблюдается.",
     "clinicalEvidence_en": "The combination of beta-alanine and tissue hydrolysate has undergone clinical trials for relieving menopausal symptoms. No habituation observed.",
@@ -219,7 +256,7 @@
     "id": 4,
     "name": "MIKOR",
     "category": "Immunologiya",
-    "image": "/images/MIKOR.png",
+    "image": "/mikor.png",
     "badge": "Evidence-Based",
     "tagline_uz": "Ichak shilliq qavati immunitetini faollashtiradi va mikrobiologik muvozanatni normallashtiradi.",
     "tagline_ru": "Активирует иммунитет слизистой оболочки кишечника и нормализует микробиологический баланс.",
@@ -244,14 +281,38 @@
     "dosage_ru": "Откройте саше-пакет, смешайте содержимое с небольшим количеством тёплой воды и примите за 50–60 минут до еды. Не растворять в жидкости выше 40°C. Дети: 1 саше каждые 3 дня. Взрослые: 2 саше каждые 3 дня. Курс лечения: 1–3 недели (6 приёмов).",
     "dosage_en": "Open the sachet, mix the contents with a small amount of warm water and take 50–60 minutes before meals. Do not dissolve in liquid above 40°C. Children: 1 sachet every 3 days. Adults: 2 sachets every 3 days. Treatment course: 1–3 weeks (6 doses).",
     "ingredients": [
-      { "name": "Bacillus subtilis", "amount": "5×10⁹ CFU" },
-      { "name": "Laktobakteriyalar metabolitlari", "amount": "10 mg" },
-      { "name": "Beta-glyukan (1/3–1/4)", "amount": "40 mg" },
-      { "name": "Rux laktati", "amount": "20 mg" },
-      { "name": "Xitozan", "amount": "35 mg" },
-      { "name": "Selen", "amount": "25 mkg" },
-      { "name": "Vitamin D₃", "amount": "400 IU" },
-      { "name": "Pektin", "amount": "—" }
+      {
+        "name": "Bacillus subtilis",
+        "amount": "5×10⁹ CFU"
+      },
+      {
+        "name": "Laktobakteriyalar metabolitlari",
+        "amount": "10 mg"
+      },
+      {
+        "name": "Beta-glyukan (1/3–1/4)",
+        "amount": "40 mg"
+      },
+      {
+        "name": "Rux laktati",
+        "amount": "20 mg"
+      },
+      {
+        "name": "Xitozan",
+        "amount": "35 mg"
+      },
+      {
+        "name": "Selen",
+        "amount": "25 mkg"
+      },
+      {
+        "name": "Vitamin D₃",
+        "amount": "400 IU"
+      },
+      {
+        "name": "Pektin",
+        "amount": "—"
+      }
     ],
     "benefits_uz": [
       "Ichak mukozal immunitetini faollashtiradi",
@@ -283,7 +344,11 @@
     "storage_uz": "Quruq, salqin joyda saqlang. 40°C dan yuqori haroratda saqlash mumkin emas.",
     "storage_ru": "Хранить в сухом, прохладном месте. Нельзя хранить при температуре выше 40°C.",
     "storage_en": "Store in a dry, cool place. Do not store above 40°C.",
-    "certifications": ["GMP Sertifikatlangan", "Klinik sinovdan o'tgan", "O'zbekiston SSV ruxsati"],
+    "certifications": [
+      "GMP Sertifikatlangan",
+      "Klinik sinovdan o'tgan",
+      "O'zbekiston SSV ruxsati"
+    ],
     "clinicalEvidence_uz": "MIKOR ichak immunitetini faollashtirishda klinik jihatdan tasdiqlangan. Davolash kursi 1–3 hafta, qayta kurs o'tkazish mumkin.",
     "clinicalEvidence_ru": "MIKOR клинически подтверждён в активации кишечного иммунитета. Курс лечения 1–3 недели, повторный курс возможен.",
     "clinicalEvidence_en": "MIKOR is clinically validated for activating intestinal immunity. Treatment course: 1–3 weeks, repeat course possible.",
@@ -296,7 +361,7 @@
     "id": 5,
     "name": "IGN Shampun",
     "category": "Kosmetika",
-    "image": "/images/Shampoo.png",
+    "image": "/shampoo.png",
     "badge": "Natural",
     "tagline_uz": "Soch to'kilishiga qarshi Amerika texnologiyalari asosida yaratilgan terapevtik shampun.",
     "tagline_ru": "Терапевтический шампунь против выпадения волос на основе американских технологий.",
@@ -321,12 +386,30 @@
     "dosage_ru": "Нанесите достаточное количество шампуня на влажные волосы или кожу головы, массируйте 2–3 минуты, затем тщательно смойте тёплой водой. Для оптимального результата применяйте 2–3 раза в неделю.",
     "dosage_en": "Apply sufficient amount of shampoo to wet hair or scalp, massage for 2–3 minutes, then rinse thoroughly with warm water. For optimal results, use 2–3 times per week.",
     "ingredients": [
-      { "name": "Mumiyo (Shilajit)", "amount": "—" },
-      { "name": "Rozmarin ekstrakti", "amount": "—" },
-      { "name": "Aloe vera geli", "amount": "—" },
-      { "name": "Qizilmiya (Licorice) ekstrakti", "amount": "—" },
-      { "name": "Yalpiz ekstrakti", "amount": "—" },
-      { "name": "Moychechak ekstrakti", "amount": "—" }
+      {
+        "name": "Mumiyo (Shilajit)",
+        "amount": "—"
+      },
+      {
+        "name": "Rozmarin ekstrakti",
+        "amount": "—"
+      },
+      {
+        "name": "Aloe vera geli",
+        "amount": "—"
+      },
+      {
+        "name": "Qizilmiya (Licorice) ekstrakti",
+        "amount": "—"
+      },
+      {
+        "name": "Yalpiz ekstrakti",
+        "amount": "—"
+      },
+      {
+        "name": "Moychechak ekstrakti",
+        "amount": "—"
+      }
     ],
     "benefits_uz": [
       "Soch to'kilishini kamaytiradi",
@@ -358,7 +441,12 @@
     "storage_uz": "Quruq, salqin joyda, to'g'ri quyosh nuridan himoya qilingan holda saqlang.",
     "storage_ru": "Хранить в сухом, прохладном месте, защищённом от прямых солнечных лучей.",
     "storage_en": "Store in a dry, cool place, protected from direct sunlight.",
-    "certifications": ["Tabiiy tarkib", "Gormonsiz", "Klinik sinovdan o'tgan", "Amerika texnologiyasi"],
+    "certifications": [
+      "Tabiiy tarkib",
+      "Gormonsiz",
+      "Klinik sinovdan o'tgan",
+      "Amerika texnologiyasi"
+    ],
     "clinicalEvidence_uz": "Klinik sinovdan o'tgan. 4–5 marta qo'llashdan keyin soch to'kilishi sezilarli darajada kamayishi kuzatilgan. Uzum Market: UM2089598, Yandex Market: 5118772251.",
     "clinicalEvidence_ru": "Прошёл клинические испытания. После 4–5 применений наблюдается значительное уменьшение выпадения волос. Uzum Market: UM2089598, Yandex Market: 5118772251.",
     "clinicalEvidence_en": "Clinically tested. Significant reduction in hair loss observed after 4–5 applications. Uzum Market: UM2089598, Yandex Market: 5118772251.",

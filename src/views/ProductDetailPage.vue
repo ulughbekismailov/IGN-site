@@ -54,8 +54,8 @@
             </div>
             <div class="relative flex justify-center lg:justify-end">
               <div class="relative w-full max-w-md">
-                <div class="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-primary-400/20 rounded-3xl blur-2xl scale-105"></div>
-                <img :src="product.image" :alt="product.name" class="relative rounded-3xl w-full h-72 object-cover shadow-elevated border border-white/10" loading="eager"/>
+                <div class="absolute inset-0 bg-white/5 rounded-3xl blur-2xl scale-105"></div>
+                <img :src="product.image" :alt="product.name" class="relative rounded-3xl w-full h-72 object-contain drop-shadow-2xl" loading="eager"/>
               </div>
             </div>
           </div>

@@ -144,6 +144,56 @@
       </div>
     </section>
 
+    <!-- CERTIFICATIONS & PARTNERSHIPS -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14 reveal">
+          <span class="section-tag">{{ t("about.certifications.title") }}</span>
+          <h2 class="section-title mb-4">{{ t("about.certifications.title") }}</h2>
+          <p class="section-subtitle mx-auto">{{ t('about.certifications.subtitle') }}</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <!-- American Technology -->
+          <div class="text-center p-6 rounded-2xl bg-blue-50 border border-blue-100 hover:shadow-lg transition-all duration-300 reveal">
+            <div class="text-5xl mb-4">🇺🇸</div>
+            <h3 class="font-display font-bold text-slate-800 mb-2">American Technology</h3>
+            <p class="text-sm text-slate-500 leading-relaxed">{{ t('home.trust.americanTechDesc') }}</p>
+          </div>
+          <!-- Halal -->
+          <div class="text-center p-6 rounded-2xl bg-green-50 border border-green-100 hover:shadow-lg transition-all duration-300 reveal">
+            <div class="text-5xl mb-4">☪️</div>
+            <h3 class="font-display font-bold text-slate-800 mb-2">Halal</h3>
+            <p class="text-sm text-slate-500 leading-relaxed">{{ t('home.trust.halalDesc') }}</p>
+          </div>
+          <!-- ISO -->
+          <div class="text-center p-6 rounded-2xl bg-primary-50 border border-primary-100 hover:shadow-lg transition-all duration-300 reveal">
+            <div class="text-5xl mb-4">🏆</div>
+            <h3 class="font-display font-bold text-slate-800 mb-2">ISO 9001:2015</h3>
+            <p class="text-sm text-slate-500 leading-relaxed">{{ t('home.trust.isoDesc') }}</p>
+          </div>
+          <!-- GMP -->
+          <div class="text-center p-6 rounded-2xl bg-teal-50 border border-teal-100 hover:shadow-lg transition-all duration-300 reveal">
+            <div class="w-16 h-16 mx-auto mb-4 rounded-2xl bg-teal-600 flex items-center justify-center">
+              <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <h3 class="font-display font-bold text-slate-800 mb-2">GMP Certified</h3>
+            <p class="text-sm text-slate-500 leading-relaxed">{{ t('accreditations.gmpCertified') }}</p>
+          </div>
+        </div>
+
+        <!-- American partnership banner -->
+        <div class="mt-10 p-8 rounded-3xl bg-gradient-to-r from-primary-800 to-primary-700 text-white flex flex-col md:flex-row items-center gap-6 reveal">
+          <div class="text-6xl flex-shrink-0">🇺🇸</div>
+          <div>
+            <h3 class="font-display font-bold text-2xl mb-2">{{ t('home.trust.americanTech') }}</h3>
+            <p class="text-white/80 text-base leading-relaxed">{{ t('footer.americanTechDesc') }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Why Choose Us -->
     <section class="py-24 bg-slate-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
